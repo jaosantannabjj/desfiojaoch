@@ -1,0 +1,38 @@
+  .menu{
+    max-width: 1200px;   
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .menu a{
+
+    color: hsl(243, 87%, 12%);
+  }
+
+@media (max-width: 800px){
+  .menu{
+    max-width: 800px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .menu ul{
+    flex-wrap: wrap;
+  }
+  .paragrafo-um{
+    text-align: center;
+    max-width: 50ch;
+    line-height: 1.5;
+    color: hsl(243, 87%, 12%);
+    font-size: 0.85rem
+  }
+}

@@ -1,0 +1,92 @@
+.introducao{  
+  max-width: 1200px;   
+  margin: 0 auto;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.introducao input{
+  width: 300px ;
+  height: 40px ;
+}
+
+.introducao button{
+  cursor: pointer;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  color: hsl(240, 75%, 98%);
+  border-radius: 2px;
+  width: 200px;
+}
+
+.introducao-receber{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.introducao p{
+  line-height: 1.5;
+  color: hsl(243, 87%, 12%);
+}
+
+.introducao h1{
+  max-width: 70ch;
+  line-height: 1.5;
+  color: hsl(243, 87%, 12%);
+}
+
+@media (max-width: 800px){
+  .introducao{
+    text-align: center;
+    padding: 0px;
+    max-width: auto;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .introducao button{
+    width: 410px;
+    padding: 15px;
+  }
+
+  .introducao input{
+  width: 400px ;
+  height: 40px ;
+  }
+  .introducao h1{
+    text-align: center  ;
+    font-size: 1.5rem;
+    max-width:30ch;
+    padding: 0px ;
+  }
+  .introducao p{
+    font-size: 0.85rem;
+  }
+  .introducao img{
+    grid-row: 1;
+    justify-content: center;
+  }
+  .reposivio-intro{
+    display: grid ;
+    grid-template-columns: 1fr;
+  }
+
+  .introducao-receber{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .introducao img{
+    grid-column: 0;
+    max-width: 350px;
+  }
+}

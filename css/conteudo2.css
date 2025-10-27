@@ -1,0 +1,72 @@
+.conteudo2{   
+    margin: 0 auto;
+    margin-top: 40px;
+    background: hsl(238, 22%, 44%);
+    color: hsl(240, 75%, 98%);
+
+}
+
+.container-conteudo2{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo2 p{
+    line-height: 1.8;
+    max-width: 50ch;
+}
+
+.conteudo2 input{
+  width: 500px ;
+  height: 40px ;
+  box-shadow: inherit 5px 5px 10px rgb(0, 0, 0, 0.9);
+}
+
+.conteudo2 button{
+  cursor: pointer;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  color: hsl(240, 75%, 98%);
+  width: 250px;
+  padding: 15px 0px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+.input-button-conteudo2{
+  display:grid;
+  gap: 15px;
+}
+
+@media (max-width:800px){
+  .container-conteudo2{
+    display:grid;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 100px 40px;
+    gap: 20px;
+}
+
+.conteudo2 p{
+  margin-top: 20px;
+}
+
+.input-button-conteudo2{
+  display:grid;
+  gap: 15px;
+}
+
+.conteudo2 input{
+  width: 400px;
+}
+
+.conteudo2 button{
+  width: 410px;
+  box-shadow:none;
+}
+}
