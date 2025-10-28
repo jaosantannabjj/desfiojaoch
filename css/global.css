@@ -1,3 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scrollbar-width: thin;
+    scrollbar-color:  hsl(243, 87%, 12% )   hsl(240, 75%, 98%);
+}
+
 body{
     background-color: hsl(240, 75%, 98%);
     margin: 0px;
