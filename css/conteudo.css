@@ -126,8 +126,10 @@
     padding: 10px;
     max-width: 40ch;
   }
+
 .caixa-texto p{
-  line-height: 1.2;
+  line-height: 1.5;
+  padding: 0px;
 }
 
 .caixa-texto{
